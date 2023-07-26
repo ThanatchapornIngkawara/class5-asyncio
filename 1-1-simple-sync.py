@@ -5,7 +5,7 @@ def sleep():
     print(f'Time: {time.time() - start:.2f}')  
     time.sleep(1) 
 
-#คำนวณผลรวมของตัวเลขใน list number 
+# ผลรวมของตัวเลขในรายการ numbers ที่ถูกคำนวณแล้ว
 def sum(name, numbers):
     total = 0
     for number in numbers:
@@ -16,7 +16,7 @@ def sum(name, numbers):
     print(f'Task {name}: Sum = {total}\n')  
 start = time.time()  
 
-#คำนวณผลรวมของตัวเลขที่อยู่ใน list numbers
+# คำนวณผลรวมของตัวเลขที่อยู่ในรายการ numbers 
 tasks = [
     sum("A", [1, 2]),  
     sum("B", [1, 2, 3]),  
