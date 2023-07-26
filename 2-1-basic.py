@@ -1,6 +1,8 @@
 import asyncio
 import time
 
+#create and run hello(1) และ hello(2) ทั้งสองทำงานพร้อมกัน 
+#ให้ main() run await task1 และ await task2 แทนการใช้ asyncio.gather
 async def hello(i):
     print(f"{time.ctime()} hello {i} started")
     await asyncio.sleep(4)
